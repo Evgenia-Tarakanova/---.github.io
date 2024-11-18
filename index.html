@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hjemmeside Tarakanova Evgenia</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .hero {
+            background: url('https://i.pinimg.com/originals/f8/bf/57/f8bf5745f38068ce94058544c8aee189.jpg') no-repeat center center;
+            background-size: cover;
+            height: 600px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        footer {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Side mitt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Hjemmesiden til nettstedet</a></li>
+                <li class="nav-item"><a class="nav-link" href="university.html">Universitet</a></li>
+                <li class="nav-item"><a class="nav-link" href="group.html">Gruppe</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+    <div class="container">
+        <h1 class="display-4">Velkommen til hjemmesiden min!</h1>
+        <p class="lead">Her finner du informasjon om meg og mine hobbyer.</p>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="mt-5">Lysbildefremvisning</h2>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.culture.ru/images/eafee24c-e13d-52bc-9c0f-b3d0719e33b5" class="d-block w-100" alt="Слайд 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/originals/86/6d/00/866d000ce94ac29c48f30e892a9b6c8f.jpg" class="d-block w-100" alt="Слайд 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://sun9-53.userapi.com/impg/m-UG_7Va5G8o6SAR5WhOdfnuRkh9Pd6PGD_JAg/QqjpoUPuBM8.jpg?size=960x1080&quality=95&sign=83bd8019bac4044202e641f00eb56b1d&type=album" class="d-block w-100" alt="Слайд 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Tidligere</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Neste</span>
+        </button>
+    </div>
+
+    <h2 class="mt-5">Tabell med informasjon om meg</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Navn</th>
+                <th>Alder</th>
+                <th>By</th>
+	<th>Hobbyer</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Evgenia</td>
+                <td>19</td>
+                <td>Ulyanovsk</td>
+	<td>Jeg liker a lese, se TV-serier og hore pa musikk. Jeg liker ogsa a ga. Og  jeg elsker katter)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer class="text-center py-4">
+    <div class="container">
+        <p class="mb-0">11.11.2024</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
